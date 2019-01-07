@@ -1,5 +1,5 @@
 {
-  "name": "pg7",
+  "name": "@hubdoc/pg7",
   "version": "7.4.1",
   "description": "PostgreSQL client - pure javascript & libpq with the same API",
   "keywords": [
@@ -46,5 +46,9 @@
   "license": "MIT",
   "engines": {
     "node": ">= 4.5.0"
+  },
+  "publishConfig": {
+    "registry": "https://hubdoc.jfrog.io/hubdoc/api/npm/npm-local/"
   }
+
 }
